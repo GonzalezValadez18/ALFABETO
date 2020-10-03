@@ -37,7 +37,6 @@ public class OrdenarSinRepetir {
                                 }}}} else {
                         System.out.println("La pila esta llena");
                     }
-
                     System.out.println("¿Deseas realizar alguna otra accion?");
                     break;
                 case 2:
@@ -47,8 +46,7 @@ public class OrdenarSinRepetir {
                         //for encargado de recorrer el arreglo desde el ultimo dato hasta el primero
                         for (int i = edge - 1; i >= 0; i--) {
                             System.out.print("  " + roster[i]);
-                        }
-                    } else {
+                       } } else {
                         System.out.println("No existe ninguna pila");
                     }
                     System.out.println("\n¿Deseas realizar alguna otra accion?");
@@ -90,13 +88,9 @@ public class OrdenarSinRepetir {
                                 pokeball = roster[i];
                                 roster[i] = roster[j];
                                 roster[j] = (char) pokeball;
-                            }
-                        }
-                    }
+                            }}}
                     System.out.println("¿Deseas realizar alguna otra accion?");
                     break;
             }
             //Opciones que finalizan la ejecucion del programa (do-while)
-        } while (chose != 6);
-    }
-}
+        } while (chose != 6);}}
